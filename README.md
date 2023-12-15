@@ -16,3 +16,11 @@ Currently, the project has the following files and folders:
 - [house-price-prediction.ipynb](house-price-prediction.ipynb) : this is the official source code file written on Jupyter Notebook. In this file is the engine of the entire model, including visualizing data, training and calculating model performance. Currently, the model has an **efficiency of about 72%**. In this project, we use **Python 3.10.9** and Scikit-learn library.
   
 - [house_price_data.csv](house_price_data.csv) : this is a CSV file containing data of more than 5,000 houses in Hanoi, the results of this investigation have been carefully surveyed by the project team for half a year. early 2023. Of course, the data in the csv file above has been completely preprocessed, removing noise and only retaining the best data for the problem. This data is open source, unpublished and highly reliable, perfectly suitable for other Data or Machine Learning projects.
+
+## Accuracy
+
+The project achieved an accuracy of about 72%, based on R2-Score, the performance is relatively good and stable.
+
+<p align="center">
+  <img src=".readme/accuracy.png" alt="Accuracy">
+</p>
